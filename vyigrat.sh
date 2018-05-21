@@ -9,5 +9,5 @@ echo -e "Downloading Vyigrat binaries"
 cd /home
 wget http://vyigrat.com/vyigrat-cli
 wget http://vyigrat.com/vyigratd
-chmod +x /home/vyigrat-cli
-chmod +x /home/vyigratd
+chmod +x vyigrat-cli
+chmod +x vyigratd
