@@ -6,8 +6,8 @@ add-apt-repository ppa:bitcoin/bitcoin
 apt-get update
 apt-get -y install libdb4.8-dev libdb4.8++-dev libminiupnpc-dev libevent-dev
 echo -e "Downloading Vyigrat binaries"
-cd /home
-wget http://vyigrat.com/vyigrat-cli
-wget http://vyigrat.com/vyigratd
+cd "/home"
+wget "http://vyigrat.com/vyigrat-cli"
+wget "http://vyigrat.com/vyigratd"
 chmod +x vyigrat-cli
 chmod +x vyigratd
