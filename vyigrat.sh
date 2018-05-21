@@ -1,3 +1,5 @@
+clear
+echo -e "Installing dependencies"
 sudo apt-get -y update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade
 apt-get -y install git automake build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev software-properties-common
 add-apt-repository ppa:bitcoin/bitcoin
