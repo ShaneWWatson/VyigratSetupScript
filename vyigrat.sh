@@ -18,7 +18,7 @@ apt-get update
 apt-get -y install libdb4.8-dev libdb4.8++-dev libminiupnpc-dev libevent-dev
 }
 
-function compile() {
+function binaries() {
   echo -e "Downloading Vyigrat binaries"
   cd /home
   wget http://vyigrat.com/vyigrat-cli
@@ -26,3 +26,8 @@ function compile() {
   chmod +x /home/vyigrat-cli
   chmod +x /home/vyigratd
 }
+
+# Main code
+clear
+setup_node
+binaries
